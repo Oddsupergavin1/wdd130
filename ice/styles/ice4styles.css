@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #5ca0d7;
+    text-align: center;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.white {
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    color: black;
+}
+
+ol{
+    width: 400px;
+    margin: 0 auto 2%;
+}
+
+li{
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
