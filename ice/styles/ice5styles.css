@@ -1,0 +1,30 @@
+head {
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.circle-image {
+    width: 100%;
+}
+
+.bottom {
+    padding: 2%;
+    background-position: center;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.graphic-image {
+    margin: 0 2%;
+}
+
+.bottom img {
+    border-radius: 50%;
+    width: 17%;
+    border: 10px solid black;
+}
