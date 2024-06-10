@@ -179,7 +179,10 @@ main section img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 #background {
     background-color: var(--secondary-color);
     height: 725px;
