@@ -1,0 +1,94 @@
+
+
+.card {
+    background-color: white;
+    width: 38%;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+body {
+    max-width: 750px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+div {
+    overflow: visible;
+}
+
+.headerimage {
+    width: 100%;
+}
+
+.awesomearticle {
+    padding: 10%;
+    text-align: center;
+}
+
+footer {
+    background-color: #3f5b8b;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 5%; */
+    column-gap: 5px;
+    
+}
+
+footer p {
+    margin: 0;
+}
+.subgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%;
+}
+
+.read1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    /* align-self: self-end; */
+}
+
+.read2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-self: start;
+    justify-self: center;
+    font-size: smaller;
+}
+.middle {
+    border-right: .2px solid white;
+    border-left: .2px solid white;
+}
+
+.views1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+.views2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    font-size: smaller;
+}
+
+.comments1 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.comments2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: start;  
+    font-size: smaller;
+}
